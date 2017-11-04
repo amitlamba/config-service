@@ -1,0 +1,21 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        encrypt.enabled: false
+        git:
+          uri: ${HOME}/configprop
+          searchPaths: auth-service,client-panel,event-api,eureka-service,gateway-service
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url: http://localhost:8761/eureka
