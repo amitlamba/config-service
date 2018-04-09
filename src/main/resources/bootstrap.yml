@@ -10,7 +10,8 @@ spring:
         encrypt.enabled: false
         git:
           uri: /home/shiv/undot/configprop
-          searchPaths: auth-service,client-panel,event-api,eureka-service,gateway-service,und-scheduler,zipkin-service
+          searchPaths: auth-service,client-panel,event-api,eureka-service,gateway-service,und-scheduler,zipkin-service,emailsendservice
+          force-pull: true
 
 eureka:
   instance:
