@@ -22,3 +22,15 @@ eureka:
     region: dekstop
     service-url:
         defaultZone:  http://192.168.0.109:8761/eureka
+
+
+
+encrypt:
+  key: UserNDot@18
+
+#security:
+#  basic:
+#    enabled: true
+#  user:
+#    name: user
+#    password: password
