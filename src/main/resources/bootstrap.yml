@@ -27,7 +27,7 @@ eureka:
 
 
 encrypt:
-  key: UserNDot@18
+  key: ${ENCRYPT_KEY}
 
 #security:
 #  basic:
