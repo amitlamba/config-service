@@ -7,7 +7,8 @@ spring:
   cloud:
     config:
       server:
-        encrypt.enabled: false
+        encrypt:
+          enabled: false
         git:
           uri: /home/shiv/undot/configprop
           searchPaths: auth-service,client-panel,event-api,eureka-service,gateway-service,und-scheduler,zipkin-service,emailsendservice
