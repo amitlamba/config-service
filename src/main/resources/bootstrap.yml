@@ -22,7 +22,7 @@ eureka:
     fetch-registry: true
     region: dekstop
     service-url:
-        defaultZone:  http://172.31.31.130:8761/eureka
+        defaultZone:  http://${EUREKA_IP}:${EUREKA_PORT}/eureka
 
 
 
