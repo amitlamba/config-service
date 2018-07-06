@@ -10,7 +10,7 @@ spring:
         encrypt:
           enabled: false
         git:
-          uri: /home/shiv/undot/configprop
+          uri: /home/und/code/configprop
           searchPaths: auth-service,client-panel,event-api,eureka-service,gateway-service,und-scheduler,zipkin-service,emailsendservice
           force-pull: true
 
@@ -22,7 +22,7 @@ eureka:
     fetch-registry: true
     region: dekstop
     service-url:
-        defaultZone:  http://192.168.0.109:8761/eureka
+        defaultZone:  http://${EUREKA_SERVER}:${EUREKA_PORT}/eureka
 
 
 
